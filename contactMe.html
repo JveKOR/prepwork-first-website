@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Marilu's Daycare</title>
+</head>
+<body>
+
+    <div class="navBar">
+        <a href="index.html">Home</a>
+        <a href="contactMe.html">Contact</a>
+        <a href="aboutMe.html">About Myself</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+
+    <h1>Schedule a visit Today</h1>
+
+    <form method="post">
+
+        <fieldset>
+            <legend>Building Bright Beginnings</legend>
+
+            <div class="childFullName">
+                <label for="childFullName">Child's Full Name</label>
+                <input type="text" id="childFullName" name="child_Full_Name" required>
+            </div>
+
+            <div class="parentFullName">
+                <label for="parentFullName">Parent's Full Name</label>
+                <input type="text" id="parentFullName" name="parent_Full_Name" required>
+            </div>
+
+            <div class="startDate">
+                <label for="startDate">Start Date</label>
+                <input type="date" id="startDate" name="start_Date">
+            </div>
+
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email"  name="email" required>
+            </div>
+
+            <div class="phone">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+
+    <div class="contactOption">
+            <p>How would you like us to reach you?</p>
+
+        <div class="options">
+            <div class="emailOption">
+                <label for="emailOption">Email</label>
+                <input type="radio" name="emailOption" id="email_Option">
+            </div>
+
+            <div class="phoneOption">
+                <label for="phoneOption">Phone</label>
+                <input type="radio" name="phoneOption" id="phone_Option">
+            </div>
+        </div>
+    </div>
+
+            <div class="typeOfCare">
+                <label for="typeOfCare">Full-time or Part-time</label>
+                <select id="typeOfCare" name="type_Of_Care">
+                    <option value="">Choose One</option>
+                    <option value="fullTime">Full-time</option>
+                    <option value="partTime">Part-time</option>
+                </select>
+            </div>
+
+            <div class="additionalInfo">
+                <label for="additionalInfo">Any additional information?</label>
+                <textarea id="additionalInfo" name="additionalInfo"></textarea>
+            </div>
+
+            <div class="submitBut">
+                <button type="button">Submit</button>
+            </div>
+
+            <div class="resetBut">
+                <button type="reset">Restart</button>
+            </div>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#kidsHandsBooks {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.navBar {
+    text-align: center;
+}
+
+.address p{
+    padding: 0;
+    margin: 0;
+}
